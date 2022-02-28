@@ -14,15 +14,16 @@ At least python 3.10 is required to build unmodified.<br>
 -Audio <br>
 Speech recognition (speech to text) [x]<br>
 Speech synthesis (text to speech) [ ]<br>
-Sound identification [ ]<br><br>
+Sound identification [ ]<br>
+Play sound files and links [ ]<br>
 
 -Vision<br>
 Facial recognition [ ]<br><br>
 
--Commands<br>
+-Information<br>
 Reminders [ ]<br>
 Time & date [ ]<br>
-Weather [ ]<br><br>
+Weather [ ]<br>
 
 -Talk<br>
 Answer questions [ ]<br>
