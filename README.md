@@ -9,3 +9,9 @@ Use 'pip install -r requirements.txt' in the root folder to make sure prerequisi
 
 To build, run 'init.py'.
 
+I recommend using python 3.8
+
+# Issues
+
+You may have to use 'pipwin' instead of 'pip' to install 'pyaudio'.
+To install 'pipwin', run 'pip install pywin' in Command Prompt.
