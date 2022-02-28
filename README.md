@@ -9,7 +9,7 @@ To install dependencies, run install.py which will install all dependencies.
 
 To build, run 'py init.py' in the root folder (via command prompt).
 
-At least 3.10 is required to build unmodified.
+At least python 3.10 is required to build unmodified.
 
 # Road map
 -Audio
