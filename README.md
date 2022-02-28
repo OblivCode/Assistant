@@ -13,10 +13,10 @@ At least python 3.10 is required to build unmodified.
 
 # Road map
 -Audio <br>
-Speech recognition [x]<br>
+Speech recognition (speech to text) [x]<br>
 Speech synthesis (text to speech) [ ]<br>
-Sound identification [ ]<br>
-<br>
+Sound identification [ ]<br><br>
+
 -Vision<br>
 Facial recognition [ ]<br><br>
 
