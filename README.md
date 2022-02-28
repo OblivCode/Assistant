@@ -3,15 +3,29 @@ Pypi packages listed in requirements.txt
 
 # Building
 
-Before you build, make sure to download a vosk model and extract it in the 'resources' folder for speech to text and add 'faces' (found in 'resources') to the 'faces' folder for facial recognition.
+Before you build, make sure to download a vosk model and extract it's contents to the 'vosk-model' folder(in 'resources') for speech to text and add 'faces' (found in 'resources') to the 'faces' folder for facial recognition.
 
-Use 'pip install -r requirements.txt' in the root folder to make sure prerequisites are installed.
+To install dependencies, run install.py which will install all dependencies.
 
-To build, run 'init.py'.
+To build, run 'py init.py' in the root folder (via command prompt).
 
-I recommend using python 3.8
+At least 3.10 is required to build unmodified.
 
-# Issues
+# Road map
+-Audio
+Speech recognition [x]
+Speech synthesis (text to speech) [ ]
+Sound identification [ ]
 
-You may have to use 'pipwin' instead of 'pip' to install 'pyaudio'.
-To install 'pipwin', run 'pip install pywin' in Command Prompt.
+-Vision
+Facial recognition [ ]
+
+-Commands
+Reminders [ ]
+Time & date [ ]
+Weather [ ]
+
+-Talk
+Answer questions [ ]
+News [ ]
+Conversation [ ]

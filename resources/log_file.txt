@@ -1,0 +1,75 @@
+("02/28/2022, 17:43:20")::BOOT::Started boot
+("02/28/2022, 17:43:20")::BOOT::Finished boot
+("02/28/2022, 17:45:07")::INFO::'f' released
+("02/28/2022, 17:45:12")::INFO::'f' released
+("02/28/2022, 17:48:13")::BOOT::Started boot
+("02/28/2022, 17:48:13")::BOOT::Finished boot
+("02/28/2022, 17:49:39")::BOOT::Started boot
+("02/28/2022, 17:49:39")::BOOT::Finished boot
+("02/28/2022, 17:49:50")::INFO::'f' released
+("02/28/2022, 17:49:56")::INFO::'f' released
+("02/28/2022, 17:53:06")::BOOT::Started boot
+("02/28/2022, 17:53:06")::BOOT::Finished boot
+("02/28/2022, 17:53:08")::INFO::Key.enter released
+("02/28/2022, 17:53:13")::INFO::'f' released
+("02/28/2022, 17:53:17")::INFO::'f' released
+("02/28/2022, 17:53:41")::INFO::'f' released
+("02/28/2022, 17:53:49")::INFO::'f' released
+("02/28/2022, 17:53:51")::INFO::Key.enter released
+("02/28/2022, 17:53:51")::ERROR::Unassigned key: p
+("02/28/2022, 17:53:51")::INFO::'p' released
+("02/28/2022, 17:53:52")::ERROR::Unassigned key: r
+("02/28/2022, 17:53:52")::INFO::'r' released
+("02/28/2022, 17:53:52")::ERROR::Unassigned key: i
+("02/28/2022, 17:53:52")::INFO::'i' released
+("02/28/2022, 17:53:53")::ERROR::Unassigned key: n
+("02/28/2022, 17:53:53")::INFO::'n' released
+("02/28/2022, 17:53:53")::ERROR::Unassigned key: t
+("02/28/2022, 17:53:53")::INFO::'t' released
+("02/28/2022, 17:53:53")::ERROR::Unassigned key: (
+("02/28/2022, 17:53:53")::INFO::'(' released
+("02/28/2022, 17:53:53")::INFO::Key.shift released
+("02/28/2022, 17:53:54")::ERROR::Unassigned key: s
+("02/28/2022, 17:53:54")::INFO::'s' released
+("02/28/2022, 17:53:54")::ERROR::Unassigned key: e
+("02/28/2022, 17:53:54")::ERROR::Unassigned key: l
+("02/28/2022, 17:53:54")::INFO::'e' released
+("02/28/2022, 17:53:55")::INFO::'l' released
+("02/28/2022, 17:53:55")::INFO::'f' released
+("02/28/2022, 17:53:56")::INFO::'l' released
+("02/28/2022, 17:53:56")::ERROR::Unassigned key: i
+("02/28/2022, 17:53:56")::INFO::'i' released
+("02/28/2022, 17:53:56")::ERROR::Unassigned key: s
+("02/28/2022, 17:53:56")::INFO::'s' released
+("02/28/2022, 17:53:56")::ERROR::Unassigned key: t
+("02/28/2022, 17:53:56")::ERROR::Unassigned key: e
+("02/28/2022, 17:53:56")::INFO::'t' released
+("02/28/2022, 17:53:56")::ERROR::Unassigned key: n
+("02/28/2022, 17:53:56")::INFO::'e' released
+("02/28/2022, 17:53:56")::INFO::'n' released
+("02/28/2022, 17:53:56")::ERROR::Unassigned key: i
+("02/28/2022, 17:53:56")::ERROR::Unassigned key: n
+("02/28/2022, 17:53:56")::INFO::'i' released
+("02/28/2022, 17:53:56")::INFO::'n' released
+("02/28/2022, 17:53:57")::INFO::Key.enter released
+("02/28/2022, 17:54:01")::BOOT::Started boot
+("02/28/2022, 17:54:45")::BOOT::Finished boot
+("02/28/2022, 17:56:06")::INFO::'f' released
+("02/28/2022, 17:56:47")::INFO::'f' released
+("02/28/2022, 17:56:50")::INFO::'f' released
+("02/28/2022, 17:56:53")::INFO::'f' released
+("02/28/2022, 17:56:58")::INFO::'f' released
+("02/28/2022, 17:56:59")::INFO::'f' released
+("02/28/2022, 17:57:00")::INFO::'f' released
+("02/28/2022, 17:57:00")::INFO::'f' released
+("02/28/2022, 17:57:03")::INFO::'f' released
+("02/28/2022, 17:57:23")::INFO::Key.backspace released
+("02/28/2022, 17:57:28")::BOOT::Started boot
+("02/28/2022, 17:58:12")::BOOT::Finished boot
+("02/28/2022, 17:58:19")::INFO::'f' released
+("02/28/2022, 17:58:26")::INFO::'f' released
+("02/28/2022, 17:58:36")::INFO::'f' released
+("02/28/2022, 18:04:11")::BOOT::Started boot
+("02/28/2022, 18:04:58")::BOOT::Finished boot
+("02/28/2022, 18:19:12")::BOOT::Started boot
+("02/28/2022, 18:20:04")::BOOT::Finished boot
