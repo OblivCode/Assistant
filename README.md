@@ -28,3 +28,6 @@ Weather [ ]<br><br>
 Answer questions [ ]<br>
 News [ ]<br>
 Conversation [ ]<br>
+
+-Integrations<br>
+Discord [ ]<br>
