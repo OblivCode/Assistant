@@ -1,5 +1,6 @@
 # Dependencies
-Pypi packages listed in requirements.txt
+Pypi packages listed in requirements.txt.
+To install dependencies, run install.py.
 
 # Building
 
