@@ -12,20 +12,20 @@ To build, run 'py init.py' in the root folder (via command prompt).
 At least python 3.10 is required to build unmodified.
 
 # Road map
--Audio
-Speech recognition [x]
-Speech synthesis (text to speech) [ ]
-Sound identification [ ]
+-Audio <br>
+Speech recognition [x]<br>
+Speech synthesis (text to speech) [ ]<br>
+Sound identification [ ]<br>
+<br>
+-Vision<br>
+Facial recognition [ ]<br><br>
 
--Vision
-Facial recognition [ ]
+-Commands<br>
+Reminders [ ]<br>
+Time & date [ ]<br>
+Weather [ ]<br><br>
 
--Commands
-Reminders [ ]
-Time & date [ ]
-Weather [ ]
-
--Talk
-Answer questions [ ]
-News [ ]
-Conversation [ ]
+-Talk<br>
+Answer questions [ ]<br>
+News [ ]<br>
+Conversation [ ]<br>
