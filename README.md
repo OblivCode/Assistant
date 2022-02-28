@@ -3,7 +3,7 @@ Pypi packages listed in requirements.txt
 
 # Building
 
-Before you build, make sure to download a vosk model and extract it's contents to the 'vosk-model' folder(in 'resources') for speech to text and add 'faces' (found in 'resources') to the 'faces' folder for facial recognition.
+Before you build, make sure to download a vosk model and extract it's contents to the 'vosk-model' folder(in 'resources') for speech to text.
 
 To install dependencies, run install.py which will install all dependencies.
 
