@@ -4,13 +4,11 @@ To install dependencies, run install.py.
 
 # Building
 
-Before you build, make sure to download a vosk model and extract it's contents to the 'vosk-model' folder(in 'resources') for speech to text.
+Before you build, make sure to download a vosk model and extract it's contents to the 'vosk-model' folder(in 'resources') for speech to text.<br>
 
-To install dependencies, run install.py which will install all dependencies.
+To build, run 'py init.py' in the root folder (via command prompt).<br>
 
-To build, run 'py init.py' in the root folder (via command prompt).
-
-At least python 3.10 is required to build unmodified.
+At least python 3.10 is required to build unmodified.<br>
 
 # Road map
 -Audio <br>
