@@ -1,17 +1,23 @@
 from threading import Thread
 from modules import control, logger
-import engines.audio_engine as ae
+import engines.audio_engine as audio
 from pynput import keyboard
+import os
 
-
+#config
+os.environ['voice_enabled'] = 'yes'
+os.environ['assistant_name'] = 'Assistant'
 
 key_bindings = {
-    'voice_command': 'f',
-    'force_close': 'x'
+    'voice_command': 'f', #activate speech listener
+    'force_close': 'x' #force close application
 }
 
-def on_press(key):
+last_key = ''
 
+#functions
+def onPress(key):
+    global last_key
     try:
         #logger.log_info('alphanumeric key {0} pressed'.format(key.char))
         keys = list(key_bindings.values())
@@ -20,8 +26,13 @@ def on_press(key):
         action = actions[action_idx]
 
         match action:
-            case 'voice_command': e.start_listen(),
-            case 'force_close': control.close()
+            case 'voice_command': 
+                if os.environ.get('voice_enabled') == 'yes':
+                    audio_e.start_listen()
+                else:
+                    print('Voice not enabled')
+            case 'force_close': 
+                control.close()
 
 
     except AttributeError:
@@ -33,11 +44,13 @@ def on_press(key):
 
     last_key = key.char
 
-def on_release(key):
+def onRelease(key):
     #logger.log_info('{0} released'.format(key))
     try:
         if key.char == key_bindings['voice_command']:
-            text = e.end_listen()
+            if not audio_e.listening:
+                return
+            text = audio_e.end_listen()
             print('Got ', text)
         if key == keyboard.Key.esc:
             # Stop listener
@@ -48,11 +61,13 @@ def on_release(key):
 #run
 
 logger.log_boot('Started boot')
+audio_e = audio.engine()
 
-e = ae.engine()
+
+
 with keyboard.Listener(
-        on_press=on_press,
-        on_release=on_release) as listener:
+        on_press=onPress,
+        on_release=onRelease) as listener:
     logger.log_boot('Finished boot')
-    print('Al ready')
+    audio_e.say(['Hello'])
     listener.join()
